@@ -1,0 +1,27 @@
+
+.button {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    color: #4440F6;
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: center;
+    padding: 7.5px 24.5px;
+
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid #4440F7;
+
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background: #4440F6;
+}
+
