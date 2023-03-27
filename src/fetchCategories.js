@@ -2,9 +2,7 @@ import axios from 'axios';
 
 const API_KEY = 'XNJirPivuaKUCCSyIyJ0snmyEroNI0MP';
 
-export { fetchCategories };
-
-async function fetchCategories() {
+export default async function fetchCategories() {
     const url = `https://api.nytimes.com/svc/news/v3/content/section-list.json?api-key=${API_KEY}`;
 
     try {
@@ -16,4 +14,4 @@ async function fetchCategories() {
             console.error(error);
             throw error;
         }
-    }
+}
