@@ -1,5 +1,5 @@
 #moreButton,
-.button {
+.button-ctg {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     color: #4440F6;
@@ -21,8 +21,8 @@
 
 #moreButton:hover,
 #moreButton:focus,
-.button:hover,
-.button:focus {
+.button-ctg:hover,
+.button-ctg:focus {
     color: #FFFFFF;
     background: #4440F6;
 }
@@ -46,7 +46,7 @@
     } */
 }
 
-.button.hidden {
+.button-ctg.hidden {
     display: none;
 }
 
